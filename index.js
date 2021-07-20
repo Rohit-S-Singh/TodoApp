@@ -71,8 +71,6 @@ app.get('/delete-items', function(req, res){
 });
 
 app.listen(port, function(err){
-    if(err){
-        console.log('Error', err);
-    }
+
     console.log('Server running on port:', port);
 });
